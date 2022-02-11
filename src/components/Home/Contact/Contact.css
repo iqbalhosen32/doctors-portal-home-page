@@ -1,0 +1,43 @@
+.contact-container{
+    background-image: url('../../../images/appointment-bg.png');
+    position: relative;
+    height: 650px;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+    
+}
+.contact-container::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #3D4059;
+    opacity: .9;
+    top: 0;
+}
+.container{
+    transform: translateY(0)
+}
+
+.email-input, .subject-input{
+    width: 600px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message-input{
+    width: 600px;
+    height: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-btn{
+    padding: 7px 65px;
+    background-color: #17D2B8;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
