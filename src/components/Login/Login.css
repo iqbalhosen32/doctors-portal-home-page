@@ -1,0 +1,17 @@
+input {
+    border: none;
+    border-bottom: 1px solid #E9E8E9;
+    padding-bottom: 20px;
+}
+.login-section{
+    height: 500px;
+}
+.login-bg{
+    background-image: url('../../images/login.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    margin-top: 10%;
+    width: 450px;
+    height: 800px;
+}
